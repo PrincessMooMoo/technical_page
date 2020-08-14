@@ -1,0 +1,103 @@
+
+  body{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #navbar{
+   position: fixed;
+    top: 0px;
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .nav-link{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #88cc00;
+    border-right: 2px solid #88cc00;
+    padding-bottom: 10px;
+  }
+  
+  a{
+    color: #446600;
+    font-weight: bold;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+  }
+  
+  .fiber-arts{
+    border-bottom: 3px solid #88cc00;
+    background-color: #ffcccc;
+    padding-top: 4px;
+    font-style: italic;
+  }
+  
+  #main-doc{
+    position: relative;
+    width: 100%;
+    margin-left: 230px;
+  }
+  
+  h1{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 40px;
+    color: #446600;
+  }
+  
+  h2{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #446600;
+    font-size: 30px;
+  }
+  
+  .main-section{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    width: 900px;
+  }
+
+@media screen and (max-width: 992px){
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .main-secton{
+    position: relative;
+      width: 100%;
+      justify-content: center;
+    }
+    #navbar{
+        position: relative;
+        width: 100%;
+        background-color: white;
+        z-index: 3;
+        top: 0;
+        left: 0;
+    }
+    #main-doc{
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+      }
+    #KNITTING{
+        width: 100%;
+    }
+    #CROCHET{
+        width: 100%;
+    }
+    #SEWING{
+        width: 100%;
+    }
+    #EMBROIDERY{
+        width: 100%;
+    }
+    #MACRAME{
+        width: 100%;
+    }
+    
+  }
